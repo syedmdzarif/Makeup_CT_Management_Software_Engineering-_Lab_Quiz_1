@@ -14,6 +14,6 @@
 
 	echo "Record deleted<br>";
 
-    
+    echo "<br><button> <a href = 'index.php'> Home </a> </button>";
 
 ?>
