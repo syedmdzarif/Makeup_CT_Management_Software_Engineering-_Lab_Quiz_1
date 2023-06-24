@@ -1,9 +1,9 @@
 <?php
 
-	$name = $_GET["Name"];
-	$missed_course = $_GET["Missed_Course"];
-    $ct_date = $_GET["CT_date"];
-    $reason = $_GET["Reason"];
+	$name = $_GET["name"];
+	$missed_course = $_GET["missed_course"];
+    $ct_date = $_GET["ct_date"];
+    $reason = $_GET["reason"];
    
 	require_once('dbconfig.php');
 

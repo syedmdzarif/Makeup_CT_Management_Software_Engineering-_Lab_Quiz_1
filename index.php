@@ -26,7 +26,7 @@
 
 	echo "<br>";
 
-    echo "<button> <a href = '#'> addrooking </a> </button>";
+    echo "<button> <a href = 'Request_CT.php'> addrequest </a> </button>";
 	echo "<button> <a href = '#'> cancelrequest </a> </button>";
 
 ?>
