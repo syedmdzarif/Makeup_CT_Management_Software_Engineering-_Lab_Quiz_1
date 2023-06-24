@@ -2,7 +2,10 @@
 
 <form method="GET" action="cancel_entry.php">
 
-	
+	ID: <input type="text" name="id"> 
+    <br>
+    
+    <input type="submit">
 
 </form>
 
