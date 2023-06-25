@@ -1,0 +1,74 @@
+git init
+
+git add db_create.txt
+git commit -m "commit for db creation"
+
+git add dbconfig.php
+git commit -m "commit for dbconfig.php"
+
+git add index.php
+git commit -m "commit for index.php"
+
+
+git branch apply_for_makeup
+git checkout apply_for_makeup
+
+
+git add .
+git commit -m "commit for request file creation"
+
+git add .
+git commit -m "commit for request insert backend"
+
+git add .
+git commit -m "commit for request insert frontend"
+
+git add .
+git commit -m "commit for request insert frontend form"
+
+git add .
+git commit -m "commit for request insert frontend with button"
+
+git add .
+git commit -m "commit for request ct final"
+
+
+
+git checkout master
+git merge apply_for_makeup
+
+
+
+
+git branch delete_CT_request
+git checkout delete_CT_request
+
+
+
+git add .
+git commit -m "commit for file creation for delete"
+
+git add .
+git commit -m "commit for delete frontend form"
+
+git add .
+git commit -m "commit for backend delete"
+
+git add .
+git commit -m "commit for backend delete to link with index.php"
+
+git add .
+git commit -m "commit for final backend delete"
+
+
+
+git checkout master
+git merge delete_CT_request
+
+
+git add .
+
+git commit -m "commit for file creation"
+
+git add .
+git commit -m "commit for final"
